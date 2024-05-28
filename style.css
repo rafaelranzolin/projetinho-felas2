@@ -27,3 +27,8 @@ body {
     color: var(--branco-principal);
     display: block;
 }
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
