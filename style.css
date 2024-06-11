@@ -4,6 +4,7 @@
     --botao-vermelho: #f50000;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -94,6 +95,12 @@ body {
 .lista__item {
     font-size: 32px;
     color: var(--branco-principal);
+}
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+.lista__link a:active {
+    color: purple;
 }
 .rodape__lista {
     display: flex;
